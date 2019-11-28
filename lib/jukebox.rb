@@ -23,3 +23,12 @@ songs.each_with_index {|song, index|
   puts "#{index+1}. #{song}"
 }
 end
+
+def play 
+puts "Please enter a song name or number:"
+users_response = gets.strip 
+
+if users_response 
+  puts "Playing #{song name}"
+else puts "Invalid input, please try again"
+end 
